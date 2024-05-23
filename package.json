@@ -1,0 +1,58 @@
+{
+  "name": "whatsham-api",
+  "description": "whatsham backend api by hamidsaifi.com",
+  "private": true,
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "hamidsaifi.com",
+  "engines": {
+    "node": ">=14.5.0"
+  },
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.5.0",
+    "axios": "^1.4.0",
+    "bcrypt": "5.0.1",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.0.0",
+    "exceljs": "^4.3.0",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^6.14.0",
+    "extract-zip": "^2.0.1",
+    "got": "^12.6.0",
+    "https-proxy-agent": "^7.0.2",
+    "jsonwebtoken": "^9.0.0",
+    "libphonenumber-js": "^1.10.30",
+    "link-preview-js": "^3.0.5",
+    "mercadopago": "^1.5.17",
+    "mime-types": "^2.1.35",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "mysql": "^2.18.1",
+    "mysql-import": "^5.0.26",
+    "node-cache": "^5.1.2",
+    "node-cleanup": "^2.1.2",
+    "node-fetch": "^2.6.9",
+    "nodemailer": "^6.9.1",
+    "pino": "^7.10.0",
+    "qrcode": "^1.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "randomstring": "^1.2.3",
+    "stripe": "^12.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-xo": "^0.39.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}
